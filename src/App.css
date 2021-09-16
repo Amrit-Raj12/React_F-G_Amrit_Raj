@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.nav-item{
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+#lnk{
+  text-decoration: none;
+  color: black;
+}
+#lnk:hover{
+  border-bottom: 2px solid blue;
+}
+
+.active{
+  text-decoration: none;
+  border-bottom: 2px solid blue;
+}
+.form-check{
+  padding-left: 2.5rem !important;
+}
+
+.btn-submit{
+  width: 140px !important;
+  height: 30px !important; 
+  position: absolute;
+right:    30px;
+bottom:   60px;
+}
